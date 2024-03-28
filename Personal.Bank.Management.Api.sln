@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34714.143
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Personal.Bank.Management.Api", "Personal.Bank.Management.Api\Personal.Bank.Management.Api.csproj", "{49656865-9FA7-4EAB-BA6E-CF54996D46D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Personal.Bank.Management.Api", "src\Personal.Bank.Management.Api\Personal.Bank.Management.Api.csproj", "{E876DC73-597D-4862-AD4F-2F69A70F794D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Personal.Bank.Management.Application", "src\Personal.Bank.Management.Application\Personal.Bank.Management.Application.csproj", "{76329327-4A80-405D-BE9D-1A52DF0DBDE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Personal.Bank.Management.Domain", "src\Personal.Bank.Management.Domain\Personal.Bank.Management.Domain.csproj", "{529B61A5-2CD2-4798-8AB5-7E8AD93F7172}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Personal.Bank.Management.Infraestructure", "src\Personal.Bank.Management.Infraestructure\Personal.Bank.Management.Infraestructure.csproj", "{F88CBEDA-148C-40E5-BDD1-9282EA2A6FC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Personal.Bank.Management.CrossCutting", "src\Personal.Bank.Management.CrossCutting\Personal.Bank.Management.CrossCutting.csproj", "{89256711-CD86-412B-BC99-39DC63C5A838}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +19,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{49656865-9FA7-4EAB-BA6E-CF54996D46D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{49656865-9FA7-4EAB-BA6E-CF54996D46D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{49656865-9FA7-4EAB-BA6E-CF54996D46D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{49656865-9FA7-4EAB-BA6E-CF54996D46D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E876DC73-597D-4862-AD4F-2F69A70F794D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E876DC73-597D-4862-AD4F-2F69A70F794D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E876DC73-597D-4862-AD4F-2F69A70F794D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E876DC73-597D-4862-AD4F-2F69A70F794D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76329327-4A80-405D-BE9D-1A52DF0DBDE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76329327-4A80-405D-BE9D-1A52DF0DBDE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76329327-4A80-405D-BE9D-1A52DF0DBDE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76329327-4A80-405D-BE9D-1A52DF0DBDE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{529B61A5-2CD2-4798-8AB5-7E8AD93F7172}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{529B61A5-2CD2-4798-8AB5-7E8AD93F7172}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{529B61A5-2CD2-4798-8AB5-7E8AD93F7172}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{529B61A5-2CD2-4798-8AB5-7E8AD93F7172}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F88CBEDA-148C-40E5-BDD1-9282EA2A6FC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F88CBEDA-148C-40E5-BDD1-9282EA2A6FC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F88CBEDA-148C-40E5-BDD1-9282EA2A6FC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F88CBEDA-148C-40E5-BDD1-9282EA2A6FC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89256711-CD86-412B-BC99-39DC63C5A838}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89256711-CD86-412B-BC99-39DC63C5A838}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89256711-CD86-412B-BC99-39DC63C5A838}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89256711-CD86-412B-BC99-39DC63C5A838}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
