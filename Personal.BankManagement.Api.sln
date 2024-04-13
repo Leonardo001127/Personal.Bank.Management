@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Personal.BankManagement.Api", "src\Personal.BankManagement.Api\Personal.BankManagement.Api.csproj", "{F9106A0E-811D-49A0-A904-DE96037768F3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Personal.BankManagement.Application", "src\Personal.BankManagement.Application\Personal.BankManagement.Application.csproj", "{AFD3D809-1A1E-4AD7-A0C0-86DEAB002EA4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Personal.BankManagement.CrossCutting", "src\Personal.BankManagement.CrossCutting\Personal.BankManagement.CrossCutting.csproj", "{13E4FE44-CDA7-4CCA-8F57-3E4CBCD1AC08}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Personal.BankManagement.Domain", "src\Personal.BankManagement.Domain\Personal.BankManagement.Domain.csproj", "{8C54842C-7E00-4B44-9B05-837CBEC79D30}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Personal.BankManagement.Infraestructure", "src\Personal.BankManagement.Infraestructure\Personal.BankManagement.Infraestructure.csproj", "{83C17D22-BCAA-4B88-BCC0-2D99AA318A4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9106A0E-811D-49A0-A904-DE96037768F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9106A0E-811D-49A0-A904-DE96037768F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9106A0E-811D-49A0-A904-DE96037768F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9106A0E-811D-49A0-A904-DE96037768F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFD3D809-1A1E-4AD7-A0C0-86DEAB002EA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFD3D809-1A1E-4AD7-A0C0-86DEAB002EA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFD3D809-1A1E-4AD7-A0C0-86DEAB002EA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFD3D809-1A1E-4AD7-A0C0-86DEAB002EA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13E4FE44-CDA7-4CCA-8F57-3E4CBCD1AC08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13E4FE44-CDA7-4CCA-8F57-3E4CBCD1AC08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13E4FE44-CDA7-4CCA-8F57-3E4CBCD1AC08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13E4FE44-CDA7-4CCA-8F57-3E4CBCD1AC08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C54842C-7E00-4B44-9B05-837CBEC79D30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C54842C-7E00-4B44-9B05-837CBEC79D30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C54842C-7E00-4B44-9B05-837CBEC79D30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C54842C-7E00-4B44-9B05-837CBEC79D30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83C17D22-BCAA-4B88-BCC0-2D99AA318A4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83C17D22-BCAA-4B88-BCC0-2D99AA318A4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83C17D22-BCAA-4B88-BCC0-2D99AA318A4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83C17D22-BCAA-4B88-BCC0-2D99AA318A4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FBB6602A-E529-49F9-925F-71903AC960FF}
+	EndGlobalSection
+EndGlobal
