@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Personal.BankManagement.Dom
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Personal.BankManagement.Infraestructure", "src\Personal.BankManagement.Infraestructure\Personal.BankManagement.Infraestructure.csproj", "{83C17D22-BCAA-4B88-BCC0-2D99AA318A4D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Personal.BankManagement.Front.MAUI", "src\Personal.BankManagement.Front.MAUI\Personal.BankManagement.Front.MAUI.csproj", "{7A63C649-3362-41E4-AB91-D6EFE0147C19}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,12 @@ Global
 		{83C17D22-BCAA-4B88-BCC0-2D99AA318A4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83C17D22-BCAA-4B88-BCC0-2D99AA318A4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83C17D22-BCAA-4B88-BCC0-2D99AA318A4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A63C649-3362-41E4-AB91-D6EFE0147C19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A63C649-3362-41E4-AB91-D6EFE0147C19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A63C649-3362-41E4-AB91-D6EFE0147C19}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7A63C649-3362-41E4-AB91-D6EFE0147C19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A63C649-3362-41E4-AB91-D6EFE0147C19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A63C649-3362-41E4-AB91-D6EFE0147C19}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
