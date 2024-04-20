@@ -1,6 +1,16 @@
 using Personal.BankManagement.CrossCutting;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using Personal.BankManagement.Api.Data;
+using Personal.BankManagement.Api;
+using Personal.BankManagement.Domain;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<PersonalBankManagementApiContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("PersonalBankManagementApiContext") ?? throw new InvalidOperationException("Connection string 'PersonalBankManagementApiContext' not found."));
+    
+});
 
 // Add services to the container.
 
@@ -14,6 +24,11 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
+ 
+
+
+
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
@@ -26,5 +41,15 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.MapBankEndpoints();
+
+app.MapBankAccountEndpoints();
+
+app.MapPersonEndpoints();
+
+app.MapTransactionalHistoryEndpoints();
+
+app.MapUserEndpoints();
 
 app.Run();
